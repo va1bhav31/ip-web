@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Illustration Palette — Art is our Heart</title>
+  <meta name="description" content="Illustration Palette is a creative studio founded by Gracie Verma in 2020, specializing in brand identity, wedding branding, and custom illustration.">
+  <link rel="icon" href="https://i0.wp.com/illustrationpalette.com/wp-content/uploads/2025/12/cropped-illustration-palette-packages-1-1.png?fit=32%2C32&ssl=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo"><img src="media/Home%20Page/logo%20png.png" alt="Illustration Palette" class="nav__logo-img"><span>Illustration Palette</span></a>
+      <nav class="nav__links" aria-label="Main navigation">
+        <div class="nav__item">
+          <a href="about.html" class="nav__link">About &#9662;</a>
+          <div class="nav__dropdown-menu">
+            <a href="about.html">Our Story</a>
+            <a href="wedding-branding.html">Wedding Branding</a>
+            <a href="brand-identity.html">Brand Identity</a>
+          </div>
+        </div>
+        <a href="gallery.html" class="nav__link nav__item">Gallery</a>
+        <a href="testimonials.html" class="nav__link nav__item">Testimonials</a>
+        <a href="contact.html" class="nav__link nav__link--cta nav__item">Contact</a>
+      </nav>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="nav__mobile" id="mobileNav" aria-label="Mobile navigation">
+    <div class="nav__mobile-item">
+      <a href="about.html" class="nav__mobile-link">About</a>
+      <div class="nav__mobile-sub">
+        <a href="about.html">Our Story</a>
+        <a href="wedding-branding.html">Wedding Branding</a>
+        <a href="brand-identity.html">Brand Identity</a>
+      </div>
+    </div>
+    <div class="nav__mobile-item"><a href="gallery.html" class="nav__mobile-link">Gallery</a></div>
+    <div class="nav__mobile-item"><a href="testimonials.html" class="nav__mobile-link">Testimonials</a></div>
+    <div class="nav__mobile-item"><a href="contact.html" class="nav__mobile-link">Contact</a></div>
+  </nav>
+
+  <!-- HERO SLIDER -->
+  <section class="hero" id="heroSlider">
+
+    <div class="slider" aria-hidden="true">
+      <div class="slide active">
+        <img src="media/Home%20Page/home%20page%20slider/Website-banners-IP-1918-x-920-px-1.jpg" alt="Wedding invitation suite by Illustration Palette" loading="eager">
+      </div>
+      <div class="slide">
+        <img src="media/Home%20Page/home%20page%20slider/Website-banners-IP-1918-x-920-px-2.jpg" alt="Custom stationery by Illustration Palette" loading="lazy">
+      </div>
+      <div class="slide">
+        <img src="media/Home%20Page/home%20page%20slider/Website-banners-IP-1918-x-920-px-3.jpg" alt="Wedding signage by Illustration Palette" loading="lazy">
+      </div>
+      <div class="slide">
+        <img src="media/Home%20Page/home%20page%20slider/Website-banners-IP-1918-x-920-px-4.jpg" alt="Fan-fold invitation suite by Illustration Palette" loading="lazy">
+      </div>
+      <div class="slide">
+        <img src="media/Home%20Page/home%20page%20slider/Website-banners-IP-1918-x-920-px-5.jpg" alt="Wedding stationery flat-lay by Illustration Palette" loading="lazy">
+      </div>
+      <div class="slider__overlay"></div>
+    </div>
+
+    <div class="hero__content">
+      <span class="hero__eyebrow">Creative Studio &nbsp;·&nbsp; Est. 2020 &nbsp;·&nbsp; India</span>
+      <h1 class="hero__title">Art is our <em>Heart</em></h1>
+      <p class="hero__subtitle">Where illustration, branding, and wedding design come together with intention.</p>
+      <div class="hero__ctas">
+        <a href="wedding-branding.html" class="btn btn--cream">Wedding Branding</a>
+        <a href="brand-identity.html" class="btn btn--ghost">Brand Identity</a>
+      </div>
+    </div>
+
+    <div class="slider__dots" role="tablist" aria-label="Slider navigation">
+      <button class="slider__dot active" role="tab" aria-label="Slide 1" aria-selected="true"></button>
+      <button class="slider__dot" role="tab" aria-label="Slide 2" aria-selected="false"></button>
+      <button class="slider__dot" role="tab" aria-label="Slide 3" aria-selected="false"></button>
+      <button class="slider__dot" role="tab" aria-label="Slide 4" aria-selected="false"></button>
+      <button class="slider__dot" role="tab" aria-label="Slide 5" aria-selected="false"></button>
+    </div>
+
+    <div class="slider__progress" id="sliderProgress"></div>
+
+    <div class="hero__scroll" aria-hidden="true">
+      <div class="hero__scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+
+  </section>
+
+  <!-- INTRO BAND -->
+  <div class="intro-band">
+    <div class="container">
+      <div class="intro-band__inner">
+        <p class="intro-band__text">Founded in 2020 by Gracie Verma, Illustration Palette is a creative studio where imagination meets intention. We transform stories, brands, and meaningful moments into visually striking designs that leave a lasting impression. Every detail is considered with purpose, every visual is crafted with care — because your story deserves more than beautiful design… it deserves meaning.</p>
+        <a href="about.html" class="btn btn--outline intro-band__cta">Read Our Story</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- BREAKER BANNER -->
+  <div class="breaker-banner" role="img" aria-label="Illustration Palette studio work">
+    <div class="breaker-banner__shield"></div>
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">What We Do</span>
+        <h2 class="section-header__title">Design with <em>depth</em>,<br>delivered with care</h2>
+        <p class="section-header__sub">Two distinct service offerings, one commitment — to create work that feels unmistakably yours.</p>
+      </div>
+      <div class="services__grid">
+        <div class="service-card fade-in">
+          <div class="service-card__img">
+            <img src="media/Home%20Page/Services-banner-1.png" alt="Brand Identity work by Illustration Palette" loading="lazy">
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__num">01</div>
+            <h3 class="service-card__title">Brand Identity &amp; Visual Communication</h3>
+            <p class="service-card__desc">We collaborate with brands to build cohesive visual identities — from logo systems and brand guidelines to social media creatives and marketing materials. Every element is designed to feel consistent, intentional, and aligned with your story.</p>
+            <a href="brand-identity.html" class="service-card__link">Explore Services</a>
+          </div>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-card__img">
+            <img src="media/Home%20Page/Services-banner-2.png" alt="Wedding Branding work by Illustration Palette" loading="lazy">
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__num">02</div>
+            <h3 class="service-card__title">Wedding Branding &amp; Design Experience</h3>
+            <p class="service-card__desc">We craft immersive wedding design experiences — from invitations and stationery to signage, wardrobe planners, and personalized details. Each suite reflects the couple's unique story, culture, and aesthetic.</p>
+            <a href="wedding-branding.html" class="service-card__link">Explore Services</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECT -->
+  <section class="featured">
+    <div class="featured__inner">
+      <div class="featured__text fade-in">
+        <span class="featured__label">Featured Project</span>
+        <h2 class="featured__title">Recent Wedding in Spotlight</h2>
+        <p class="featured__desc">One of our recent works in the spotlight is Sejal Kumar and Bharat Subramaniam's intimate mountain wedding in Mussoorie, featured by Vogue India. Illustration Palette designed Sejal Kumar's complete wedding invitation suite and stationery, thoughtfully reflecting the couple's love for the mountains, slow moments, and meaningful celebrations, echoing the soul of the wedding.</p>
+        <div class="featured__press">Featured in Vogue India</div>
+        <br>
+        <a href="https://www.vogue.in/gallery/exclusive-inside-sejal-kumar-and-bharat-subramaniams-mountain-wedding-in-mussoorie" class="btn btn--outline" style="margin-top:1.75rem" target="_blank" rel="noopener">Read More</a>
+      </div>
+      <div class="featured__img fade-in">
+        <img src="media/Home%20Page/home%20page%20slider/Website-banners-IP-1918-x-920-px-5.jpg"
+             alt="Wedding design work by Illustration Palette" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- PRESS -->
+  <section class="press">
+    <p class="press__label">As Seen In</p>
+    <div class="press__carousel" id="pressCarousel">
+      <div class="press__item"><img src="media/Home%20Page/as%20seen%20in/vogue%20india.png" alt="Vogue India" draggable="false"></div>
+      <div class="press__item"><img src="media/Home%20Page/as%20seen%20in/weddingwire.png" alt="WeddingWire" draggable="false"></div>
+      <div class="press__item"><img src="media/Home%20Page/as%20seen%20in/shaadifever.webp" alt="Shaadi Fever" draggable="false"></div>
+      <div class="press__item"><img src="media/Home%20Page/as%20seen%20in/over%20the%20moon.png" alt="Over The Moon" draggable="false"></div>
+      <div class="press__item"><img src="media/Home%20Page/as%20seen%20in/tboi.png" alt="TBOI" draggable="false"></div>
+      <div class="press__item"><img src="media/Home%20Page/as%20seen%20in/social%20ketchup.webp" alt="Social Ketchup" draggable="false"></div>
+      <div class="press__item"><img src="media/Home%20Page/as%20seen%20in/wedding%20bazar.png" alt="Wedding Bazar" draggable="false"></div>
+      <div class="press__item"><img src="media/Home%20Page/as%20seen%20in/local%20samosa.png" alt="Local Samosa" draggable="false"></div>
+      <div class="press__item"><img src="media/Home%20Page/as%20seen%20in/dainik%20jagran.png" alt="Dainik Jagran" draggable="false"></div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS PREVIEW -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section-header section-header--center fade-in">
+        <span class="label">Client Stories</span>
+        <h2 class="section-header__title">Designed to be <em>remembered</em></h2>
+        <p class="section-header__sub">Trusted by couples and brands across India, the United States, Canada, and the United Kingdom.</p>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial-card fade-in">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">She understood our taste perfectly from the very beginning and translated it into designs that were beautiful, customised, and thoughtfully created. Everyone appreciated her work.</p>
+          <div class="testimonial-card__author">Hina &amp; Tanuj</div>
+          <div class="testimonial-card__role">Wedding Client</div>
+        </div>
+        <div class="testimonial-card fade-in">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">You are the only person who has truly put in honest work and never cuts corners. The dedication you bring to every single detail is unmatched.</p>
+          <div class="testimonial-card__author">Nancy &amp; Saurin</div>
+          <div class="testimonial-card__role">Wedding Client</div>
+        </div>
+        <div class="testimonial-card fade-in">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">Patient, a great listener, and she brings out the story through her designs. Working with her felt like collaborating with a trusted friend.</p>
+          <div class="testimonial-card__author">Gauthami &amp; Tushar</div>
+          <div class="testimonial-card__role">Wedding Client</div>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top:2.75rem">
+        <a href="testimonials.html" class="btn btn--outline">Read All Reviews</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <span class="label">Ready to Begin?</span>
+    <h2 class="cta-section__title">Let's create something <em>together</em></h2>
+    <p class="cta-section__sub">Whether it's a wedding suite or a brand identity — every project starts with a conversation.</p>
+    <a href="contact.html" class="btn btn--primary">Start Your Project</a>
+  </section>
+
+  <!-- INSTAGRAM -->
+  <section class="insta-section">
+    <div class="container">
+      <div class="insta-section__header">
+        <span class="label">Instagram</span>
+        <h2 class="insta-section__title">Follow us on <em>Instagram</em></h2>
+        <p class="insta-section__handle">@illustrationpalette_</p>
+      </div>
+      <div class="insta-section__widget">
+        <script src="https://elfsightcdn.com/platform.js" async></script>
+        <div class="elfsight-app-f2173ceb-1bfb-4283-a702-a3a6cb5f926a" data-elfsight-app-lazy></div>
+      </div>
+      <div class="insta-section__cta">
+        <a href="https://instagram.com/illustrationpalette_" class="btn btn--outline" target="_blank" rel="noopener">View on Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__logo"><img src="media/Home%20Page/logo%20png.png" alt="" class="footer__logo-img">Illustration Palette</div>
+          <p class="footer__tagline">A creative studio for illustration, branding &amp; wedding design. Founded by Gracie Verma in 2020.</p>
+          <div class="footer__social">
+            <a href="https://instagram.com/illustrationpalette_" class="footer__social-link" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://wa.me/917303987377" class="footer__social-link" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="https://pinterest.com/IllustrationPalette_" class="footer__social-link" target="_blank" rel="noopener">Pinterest</a>
+            <a href="#" class="footer__social-link">Facebook</a>
+            <a href="#" class="footer__social-link">Threads</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__heading">Pages</div>
+          <div class="footer__links">
+            <a href="about.html" class="footer__link">Our Story</a>
+            <a href="wedding-branding.html" class="footer__link">Wedding Branding</a>
+            <a href="brand-identity.html" class="footer__link">Brand Identity</a>
+            <a href="gallery.html" class="footer__link">Gallery</a>
+            <a href="testimonials.html" class="footer__link">Testimonials</a>
+            <a href="contact.html" class="footer__link">Contact</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__heading">Services</div>
+          <div class="footer__links">
+            <a href="wedding-branding.html" class="footer__link">Wedding Invitations</a>
+            <a href="wedding-branding.html" class="footer__link">Wedding Signage</a>
+            <a href="brand-identity.html" class="footer__link">Logo Design</a>
+            <a href="brand-identity.html" class="footer__link">Brand Identity</a>
+            <a href="brand-identity.html" class="footer__link">Social Media Design</a>
+            <a href="brand-identity.html" class="footer__link">Custom Illustration</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__heading">Contact</div>
+          <div class="footer__contact-item">illustration.palette@gmail.com</div>
+          <div class="footer__contact-item">+91 7303987377</div>
+          <div class="footer__contact-item">India &nbsp;·&nbsp; Working Worldwide</div>
+          <div class="footer__contact-item" style="font-size:0.8rem;color:rgba(255,255,255,0.3);margin-top:0.5rem">Mon–Fri, 12 pm–9 pm<br>Appointments Only</div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© Illustration Palette™ All rights reserved.</span>
+        <span>Crafted with intention.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+

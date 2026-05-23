@@ -1,0 +1,271 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Illustration Palette</title>
+  <meta name="description" content="Get in touch with Illustration Palette for wedding branding, brand identity, or custom illustration projects.">
+  <link rel="icon" href="https://i0.wp.com/illustrationpalette.com/wp-content/uploads/2025/12/cropped-illustration-palette-packages-1-1.png?fit=32%2C32&ssl=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo"><img src="media/Home%20Page/logo%20png.png" alt="Illustration Palette" class="nav__logo-img"><span>Illustration Palette</span></a>
+      <nav class="nav__links" aria-label="Main navigation">
+        <div class="nav__item">
+          <a href="about.html" class="nav__link">About &#9662;</a>
+          <div class="nav__dropdown-menu">
+            <a href="about.html">Our Story</a>
+            <a href="wedding-branding.html">Wedding Branding</a>
+            <a href="brand-identity.html">Brand Identity</a>
+          </div>
+        </div>
+        <a href="gallery.html" class="nav__link nav__item">Gallery</a>
+        <a href="testimonials.html" class="nav__link nav__item">Testimonials</a>
+        <a href="contact.html" class="nav__link nav__link--cta nav__item active">Contact</a>
+      </nav>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="nav__mobile" id="mobileNav" aria-label="Mobile navigation">
+    <div class="nav__mobile-item">
+      <a href="about.html" class="nav__mobile-link">About</a>
+      <div class="nav__mobile-sub">
+        <a href="about.html">Our Story</a>
+        <a href="wedding-branding.html">Wedding Branding</a>
+        <a href="brand-identity.html">Brand Identity</a>
+      </div>
+    </div>
+    <div class="nav__mobile-item"><a href="gallery.html" class="nav__mobile-link">Gallery</a></div>
+    <div class="nav__mobile-item"><a href="testimonials.html" class="nav__mobile-link">Testimonials</a></div>
+    <div class="nav__mobile-item"><a href="contact.html" class="nav__mobile-link">Contact</a></div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <p class="page-hero__label">Start a Project</p>
+    <h1 class="page-hero__title">Let's Create Something<br><em>Together</em></h1>
+    <p class="page-hero__sub">Tell us about your vision and we'll get back to you within 24–48 hours.</p>
+  </div>
+
+  <!-- CONTACT CONTENT -->
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- FORM -->
+      <div class="fade-in">
+        <span class="label">Project Enquiry</span>
+        <h2 style="font-family:var(--serif);font-size:1.75rem;font-weight:300;margin-bottom:2rem;line-height:1.2">Tell us about <em>your project</em></h2>
+
+        <form action="mailto:illustration.palette@gmail.com" method="POST" enctype="text/plain">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="fname">First Name <span>*</span></label>
+              <input class="form-input" type="text" id="fname" name="first_name" required placeholder="Your first name">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="lname">Last Name</label>
+              <input class="form-input" type="text" id="lname" name="last_name" placeholder="Your last name">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address <span>*</span></label>
+            <input class="form-input" type="email" id="email" name="email" required placeholder="your@email.com">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="phone">Phone / WhatsApp <span>*</span></label>
+            <input class="form-input" type="tel" id="phone" name="phone" required placeholder="+91 00000 00000">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="service">Service Category <span>*</span></label>
+            <select class="form-select" id="service" name="service" required>
+              <option value="" disabled selected>Select a service</option>
+              <option value="wedding-branding">Wedding Branding &amp; Design</option>
+              <option value="custom-illustration">Custom Illustrations</option>
+              <option value="brand-identity">Brand Identity</option>
+              <option value="social-media">Social Media Design</option>
+              <option value="event-collaterals">Event Collaterals</option>
+              <option value="marketing">Marketing Design</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="description">Project Description <span>*</span></label>
+            <textarea class="form-textarea" id="description" name="description" required
+              placeholder="Tell us about your project — event/brand name, timeline, what you're looking for, and anything else that would help us understand your vision."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="source">How did you find us? <span>*</span></label>
+            <select class="form-select" id="source" name="source" required>
+              <option value="" disabled selected>Select an option</option>
+              <option value="instagram">Instagram</option>
+              <option value="google">Google</option>
+              <option value="friends-family">Friends / Family</option>
+              <option value="wedmegood">WedMeGood</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center;margin-top:0.5rem">Send Enquiry</button>
+          <p class="form-note">We typically respond within 24–48 hours. For faster responses, WhatsApp us directly at +91 7303987377.</p>
+        </form>
+      </div>
+
+      <!-- INFO -->
+      <div class="fade-in">
+        <div class="contact-info__title">Get in Touch</div>
+
+        <div class="contact-detail">
+          <span class="contact-detail__label">Email</span>
+          <div class="contact-detail__value">
+            <a href="mailto:illustration.palette@gmail.com">illustration.palette@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <span class="contact-detail__label">Phone &amp; WhatsApp</span>
+          <div class="contact-detail__value">
+            <a href="tel:+917303987377">+91 7303987377</a><br>
+            <small style="color:var(--text-light);font-size:0.82rem">WhatsApp recommended for fastest response</small>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <span class="contact-detail__label">Location</span>
+          <div class="contact-detail__value">India &nbsp;·&nbsp; Working Worldwide</div>
+        </div>
+
+        <div class="contact-detail">
+          <span class="contact-detail__label">Office Hours</span>
+          <div class="contact-detail__value">
+            Monday – Friday, 11 AM – 8 PM (IST)<br>
+            <small style="color:var(--text-light);font-size:0.82rem">Appointments: Mon–Fri, 12 pm–9 pm<br>We may respond outside hours during active projects</small>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <span class="contact-detail__label">Response Time</span>
+          <div class="contact-detail__value">Typically 24–48 hours</div>
+        </div>
+
+        <div class="social-links">
+          <a href="https://instagram.com/illustrationpalette_" class="social-link" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://wa.me/917303987377" class="social-link" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://pinterest.com/IllustrationPalette_" class="social-link" target="_blank" rel="noopener">Pinterest</a>
+          <a href="#" class="social-link">Facebook</a>
+          <a href="#" class="social-link">Threads</a>
+        </div>
+
+        <!-- QUICK WHATSAPP -->
+        <div style="margin-top:2.5rem;padding:2rem;border:1px solid var(--border);background:var(--blush)">
+          <p style="font-family:var(--serif);font-size:1.15rem;margin-bottom:0.75rem">Prefer to message directly?</p>
+          <p style="font-size:0.88rem;color:var(--text-mid);margin-bottom:1.25rem;line-height:1.7">WhatsApp is the fastest way to connect. Click below to start a conversation.</p>
+          <a href="https://wa.me/917303987377" class="btn btn--primary" target="_blank" rel="noopener">Message on WhatsApp</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <section class="section section--blush">
+    <div class="container">
+      <div class="section-header section-header--center fade-in">
+        <span class="label">Common Questions</span>
+        <h2 class="section-header__title">Before you reach out</h2>
+      </div>
+      <div class="services-list fade-in" style="grid-template-columns:1fr 1fr">
+        <div class="service-item">
+          <div class="service-item__bar"></div>
+          <h3 class="service-item__title">Do you work with international clients?</h3>
+          <p class="service-item__desc">Yes. We have worked with clients in India, the United States, Canada, and the United Kingdom. All communication and file delivery happens digitally.</p>
+        </div>
+        <div class="service-item">
+          <div class="service-item__bar"></div>
+          <h3 class="service-item__title">How far in advance should we book?</h3>
+          <p class="service-item__desc">For weddings, we recommend reaching out at least 3–4 months before your event. For branding projects, 4–6 weeks is typically sufficient.</p>
+        </div>
+        <div class="service-item">
+          <div class="service-item__bar"></div>
+          <h3 class="service-item__title">Do you use templates?</h3>
+          <p class="service-item__desc">Never. Every design is created from scratch, tailored specifically to you. No repeated styles, no recycled layouts — your project is entirely custom.</p>
+        </div>
+        <div class="service-item">
+          <div class="service-item__bar"></div>
+          <h3 class="service-item__title">What is the process for revisions?</h3>
+          <p class="service-item__desc">We include dedicated revision rounds in every project to ensure the final result feels exactly right. We work collaboratively until you're completely happy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__logo"><img src="media/Home%20Page/logo%20png.png" alt="" class="footer__logo-img">Illustration Palette</div>
+          <p class="footer__tagline">A creative studio for illustration, branding &amp; wedding design. Founded by Gracie Verma in 2020.</p>
+          <div class="footer__social">
+            <a href="https://instagram.com/illustrationpalette_" class="footer__social-link" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://wa.me/917303987377" class="footer__social-link" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="https://pinterest.com/IllustrationPalette_" class="footer__social-link" target="_blank" rel="noopener">Pinterest</a>
+            <a href="#" class="footer__social-link">Facebook</a>
+            <a href="#" class="footer__social-link">Threads</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__heading">Pages</div>
+          <div class="footer__links">
+            <a href="about.html" class="footer__link">Our Story</a>
+            <a href="wedding-branding.html" class="footer__link">Wedding Branding</a>
+            <a href="brand-identity.html" class="footer__link">Brand Identity</a>
+            <a href="gallery.html" class="footer__link">Gallery</a>
+            <a href="testimonials.html" class="footer__link">Testimonials</a>
+            <a href="contact.html" class="footer__link">Contact</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__heading">Services</div>
+          <div class="footer__links">
+            <a href="wedding-branding.html" class="footer__link">Wedding Invitations</a>
+            <a href="wedding-branding.html" class="footer__link">Wedding Signage</a>
+            <a href="brand-identity.html" class="footer__link">Logo Design</a>
+            <a href="brand-identity.html" class="footer__link">Brand Identity</a>
+            <a href="brand-identity.html" class="footer__link">Social Media Design</a>
+            <a href="brand-identity.html" class="footer__link">Custom Illustration</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__heading">Contact</div>
+          <div class="footer__contact-item">illustration.palette@gmail.com</div>
+          <div class="footer__contact-item">+91 7303987377</div>
+          <div class="footer__contact-item">India &nbsp;·&nbsp; Working Worldwide</div>
+          <div class="footer__contact-item" style="font-size:0.8rem;color:rgba(255,255,255,0.3);margin-top:0.5rem">Mon–Fri, 12 pm–9 pm<br>Appointments Only</div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© Illustration Palette™ All rights reserved.</span>
+        <span>Crafted with intention.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+

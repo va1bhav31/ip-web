@@ -1,0 +1,9 @@
+# Claude Code internal files
+.claude/
+
+# WordPress export artifacts (not part of the static site)
+wp-content/
+content/
+taxonomies/
+site-settings.json
+manifest.json

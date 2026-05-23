@@ -1,0 +1,357 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Testimonials — Illustration Palette</title>
+  <meta name="description" content="Client reviews and testimonials for Illustration Palette — wedding clients, WedMeGood reviews, and Google ratings.">
+  <link rel="icon" href="https://i0.wp.com/illustrationpalette.com/wp-content/uploads/2025/12/cropped-illustration-palette-packages-1-1.png?fit=32%2C32&ssl=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .review-source {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.7rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-light);
+      margin-top: 0.75rem;
+    }
+    .review-source::before {
+      content: '';
+      width: 16px;
+      height: 1px;
+      background: var(--border);
+    }
+    .featured-quote {
+      padding: 5rem 2rem;
+      text-align: center;
+      background: var(--dark);
+    }
+    .featured-quote__text {
+      font-family: var(--serif);
+      font-size: clamp(1.5rem, 3vw, 2.4rem);
+      font-weight: 300;
+      font-style: italic;
+      color: #fff;
+      max-width: 780px;
+      margin: 0 auto 1.5rem;
+      line-height: 1.4;
+    }
+    .featured-quote__author {
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+    .rating-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--blush);
+      border: 1px solid var(--blush-deep);
+      padding: 0.5rem 1rem;
+      font-size: 0.78rem;
+      letter-spacing: 0.1em;
+    }
+    .rating-badge__num {
+      font-family: var(--serif);
+      font-size: 1.2rem;
+      color: var(--gold);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo"><img src="media/Home%20Page/logo%20png.png" alt="Illustration Palette" class="nav__logo-img"><span>Illustration Palette</span></a>
+      <nav class="nav__links" aria-label="Main navigation">
+        <div class="nav__item">
+          <a href="about.html" class="nav__link">About &#9662;</a>
+          <div class="nav__dropdown-menu">
+            <a href="about.html">Our Story</a>
+            <a href="wedding-branding.html">Wedding Branding</a>
+            <a href="brand-identity.html">Brand Identity</a>
+          </div>
+        </div>
+        <a href="gallery.html" class="nav__link nav__item">Gallery</a>
+        <a href="testimonials.html" class="nav__link nav__item active">Testimonials</a>
+        <a href="contact.html" class="nav__link nav__link--cta nav__item">Contact</a>
+      </nav>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="nav__mobile" id="mobileNav" aria-label="Mobile navigation">
+    <div class="nav__mobile-item">
+      <a href="about.html" class="nav__mobile-link">About</a>
+      <div class="nav__mobile-sub">
+        <a href="about.html">Our Story</a>
+        <a href="wedding-branding.html">Wedding Branding</a>
+        <a href="brand-identity.html">Brand Identity</a>
+      </div>
+    </div>
+    <div class="nav__mobile-item"><a href="gallery.html" class="nav__mobile-link">Gallery</a></div>
+    <div class="nav__mobile-item"><a href="testimonials.html" class="nav__mobile-link">Testimonials</a></div>
+    <div class="nav__mobile-item"><a href="contact.html" class="nav__mobile-link">Contact</a></div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <p class="page-hero__label">Reviews</p>
+    <h1 class="page-hero__title">What Our Clients Say</h1>
+    <p class="page-hero__sub">Trusted by couples and brands across India, the United States, Canada, and the United Kingdom.</p>
+    <div style="display:flex;justify-content:center;gap:1.5rem;margin-top:2rem;flex-wrap:wrap">
+      <div class="rating-badge">
+        <span class="rating-badge__num">5.0</span>
+        <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+        <span>Google Rating</span>
+      </div>
+      <div class="rating-badge">
+        <span class="rating-badge__num">5.0</span>
+        <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+        <span>WedMeGood</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- FEATURED QUOTE -->
+  <div class="featured-quote">
+    <p class="featured-quote__text">"She made our wedding invites truly special. The entire process was seamless, and she was incredibly easy to work with — so much so that it felt like we were discussing it all with a friend."</p>
+    <span class="featured-quote__author">Hina &amp; Tanuj — Wedding Clients</span>
+  </div>
+
+  <!-- WEDDING CLIENTS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">Wedding Clients</span>
+        <h2 class="section-header__title">Stories from couples we<br>designed <em>for</em></h2>
+      </div>
+      <div class="testimonials__grid fade-in">
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">She understood our taste perfectly from the very beginning and translated it into designs that were beautiful, customised, and thoughtfully created. Everyone appreciated her work. The entire process was seamless, and she was incredibly easy to work with.</p>
+          <div class="testimonial-card__author">Hina &amp; Tanuj</div>
+          <div class="testimonial-card__role">Wedding Client</div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">You are the only person who has truly put in honest work and never cuts corners. The dedication and care you bring to every single detail is something I have never encountered before.</p>
+          <div class="testimonial-card__author">Nancy &amp; Saurin</div>
+          <div class="testimonial-card__role">Wedding Client</div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">Amazing service, amazing ideas and creative designs which were mesmerising. Every single piece exceeded our expectations and the response from guests was overwhelming.</p>
+          <div class="testimonial-card__author">Princy &amp; Yash</div>
+          <div class="testimonial-card__role">Wedding Client</div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">Patient, a great listener, and she brings out the story through her designs. She genuinely cares about each project and it shows in every detail of the final work.</p>
+          <div class="testimonial-card__author">Gauthami &amp; Tushar</div>
+          <div class="testimonial-card__role">Wedding Client</div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">The invitations — both the printed and animated ones — are being appreciated by everyone! People keep asking where we got them done. Truly special work.</p>
+          <div class="testimonial-card__author">Shalina</div>
+          <div class="testimonial-card__role">Wedding Client (Bharat's Mom)</div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">Most cooperative and understanding designer I have worked with. She did her work with utmost patience and delivered exactly what we had envisioned — and more.</p>
+          <div class="testimonial-card__author">Muskan &amp; Aseem</div>
+          <div class="testimonial-card__role">Wedding Client</div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">Your work, design, and ultimate eventual product has set the tone for our events. You are patient, a great listener, and you bring out the story through every design.</p>
+          <div class="testimonial-card__author">Kiran &amp; Sudip</div>
+          <div class="testimonial-card__role">Wedding Client</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WEDMEGOOD REVIEWS -->
+  <section class="section section--blush">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">WedMeGood Reviews &nbsp;·&nbsp; 5 Stars</span>
+        <h2 class="section-header__title">Verified platform <em>reviews</em></h2>
+      </div>
+      <div class="testimonials__grid fade-in">
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">Invites turned out so unique, fresh, and different — exactly what we hoped for. She really listened to every requirement and delivered beyond expectations.</p>
+          <div class="testimonial-card__author">Shivani</div>
+          <div class="review-source">WedMeGood</div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">She precisely understood what I wanted and delivered it within the timeframe. Communication was seamless and the final product was stunning.</p>
+          <div class="testimonial-card__author">Hitanshi</div>
+          <div class="review-source">WedMeGood</div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">She created the invites of our dreams. Very professional, creative, and delivers on time. Would absolutely recommend to any couple planning their wedding.</p>
+          <div class="testimonial-card__author">Kamal</div>
+          <div class="review-source">WedMeGood</div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">Always patient with edits, ensuring our card was absolutely perfect before signing off. She never made us feel rushed and the end result was flawless.</p>
+          <div class="testimonial-card__author">Mannat Singh</div>
+          <div class="review-source">WedMeGood</div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">Patient through every revision, ensuring every detail was perfect. The final result was absolutely stunning — guests could not stop complimenting the design.</p>
+          <div class="testimonial-card__author">Rhea Jose</div>
+          <div class="review-source">WedMeGood</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GOOGLE REVIEWS -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="label">Google Reviews &nbsp;·&nbsp; 5.0 Rating</span>
+        <h2 class="section-header__title">What clients say <em>on Google</em></h2>
+      </div>
+      <div class="testimonials__grid fade-in">
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">Great concept, wonderful ideas, and very cooperative throughout the process. She worked with us until every element was exactly right.</p>
+          <div class="testimonial-card__author">Sonu Kejriwal</div>
+          <div class="review-source">Google Review</div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">Aesthetic sense is impeccable. The designs were elegant, personalized, and exactly what we envisioned — she brought our ideas to life beautifully.</p>
+          <div class="testimonial-card__author">Devesh Narula</div>
+          <div class="review-source">Google Review</div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">So friendly and really good at her work — she never disappointed me once. From concept to delivery, the experience was smooth and enjoyable.</p>
+          <div class="testimonial-card__author">Simran Kaur Sachar</div>
+          <div class="review-source">Google Review</div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">Top notch designer — delivers dedicated results on time without compromise. Highly professional and the quality of work speaks for itself.</p>
+          <div class="testimonial-card__author">Mukesh Bagadwal</div>
+          <div class="review-source">Google Review</div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">Completely overwhelmed by the quality of their service. Every rupee well spent. The final product far exceeded everything I had imagined.</p>
+          <div class="testimonial-card__author">Mayank Kandpal</div>
+          <div class="review-source">Google Review</div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-card__quote">"</span>
+          <div class="stars"><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span></div>
+          <p class="testimonial-card__text">The patience displayed in listening to every suggestion and implementing each one on time was remarkable. A genuinely dedicated and talented designer.</p>
+          <div class="testimonial-card__author">Priyaranjan Kumar</div>
+          <div class="review-source">Google Review</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <span class="label">Join Our Clients</span>
+    <h2 class="cta-section__title">Ready to add your story<br>to this <em>collection?</em></h2>
+    <p class="cta-section__sub">Every project is built with genuine care and creative depth. Reach out to start the conversation.</p>
+    <a href="contact.html" class="btn btn--primary">Get in Touch</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__logo"><img src="media/Home%20Page/logo%20png.png" alt="" class="footer__logo-img">Illustration Palette</div>
+          <p class="footer__tagline">A creative studio for illustration, branding &amp; wedding design. Founded by Gracie Verma in 2020.</p>
+          <div class="footer__social">
+            <a href="https://instagram.com/illustrationpalette_" class="footer__social-link" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://wa.me/917303987377" class="footer__social-link" target="_blank" rel="noopener">WhatsApp</a>
+            <a href="https://pinterest.com/IllustrationPalette_" class="footer__social-link" target="_blank" rel="noopener">Pinterest</a>
+            <a href="#" class="footer__social-link">Facebook</a>
+            <a href="#" class="footer__social-link">Threads</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__heading">Pages</div>
+          <div class="footer__links">
+            <a href="about.html" class="footer__link">Our Story</a>
+            <a href="wedding-branding.html" class="footer__link">Wedding Branding</a>
+            <a href="brand-identity.html" class="footer__link">Brand Identity</a>
+            <a href="gallery.html" class="footer__link">Gallery</a>
+            <a href="testimonials.html" class="footer__link">Testimonials</a>
+            <a href="contact.html" class="footer__link">Contact</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__heading">Services</div>
+          <div class="footer__links">
+            <a href="wedding-branding.html" class="footer__link">Wedding Invitations</a>
+            <a href="wedding-branding.html" class="footer__link">Wedding Signage</a>
+            <a href="brand-identity.html" class="footer__link">Logo Design</a>
+            <a href="brand-identity.html" class="footer__link">Brand Identity</a>
+            <a href="brand-identity.html" class="footer__link">Social Media Design</a>
+            <a href="brand-identity.html" class="footer__link">Custom Illustration</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer__heading">Contact</div>
+          <div class="footer__contact-item">illustration.palette@gmail.com</div>
+          <div class="footer__contact-item">+91 7303987377</div>
+          <div class="footer__contact-item">India &nbsp;·&nbsp; Working Worldwide</div>
+          <div class="footer__contact-item" style="font-size:0.8rem;color:rgba(255,255,255,0.3);margin-top:0.5rem">Mon–Fri, 12 pm–9 pm<br>Appointments Only</div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© Illustration Palette™ All rights reserved.</span>
+        <span>Crafted with intention.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
