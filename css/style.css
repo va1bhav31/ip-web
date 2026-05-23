@@ -1318,10 +1318,21 @@ strong { font-weight: 500; }
   text-transform: uppercase;
   color: var(--text-light);
 }
-.insta-section__widget {
-  max-width: 960px;
+.insta-section__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: 1000px;
   margin: 0 auto 2rem;
-  min-height: 280px;
+  align-items: start;
+}
+.insta-section__grid .instagram-media {
+  width: 100% !important;
+  min-width: 0 !important;
+  margin: 0 !important;
+}
+@media (max-width: 768px) {
+  .insta-section__grid { grid-template-columns: 1fr; max-width: 480px; }
 }
 .insta-section__cta { margin-top: 0.5rem; }
 
